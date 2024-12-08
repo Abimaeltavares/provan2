@@ -1,3 +1,9 @@
+from django.shortcuts import render
+
+def prova_view(request):
+    return render(request, 'prova.html')
+
+
 {% if apostas %}
   <table>
     <!-- Renderize as apostas aqui -->
